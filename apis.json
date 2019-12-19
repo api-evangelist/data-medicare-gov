@@ -1,0 +1,55 @@
+{
+    "name": "Data.Medicare.Gov",
+    "description": "Medicare.gov: the official U.S. government site for Medicare",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/753-data-medicare-gov.jpg",
+    "tags": [
+        "api provider",
+        "data",
+        "have api",
+        "healthcare",
+        "medicare"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/data-medicare-gov\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Data.Medicare.Gov",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/753-data-medicare-gov.jpg",
+            "humanURL": "https:\/\/medicare.gov\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/data-medicare-gov-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/data.medicare.gov\/resource\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/medicare-gov"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/data.medicare.gov\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/MedicareGov"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/medicare.gov\/"
+        }
+    ]
+}
